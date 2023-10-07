@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const pokemonCard = document.createElement("div"); // Buat elemen div baru
         pokemonCard.classList.add("pokemon-card"); // Tambahkan nama kelas di div yang baru dibuat
         pokemonCard.innerHTML = `
-          <h2> Nomor Identitas Pokemon: ${pokemonNumber}</h2>
+          <h2> Nomor Pokemon: ${pokemonNumber}</h2>
           <h3> Nama Pokemon: ${pokemonName}</h3>
           <img src="${pokemonImage}" alt="${pokemonName}" />
           <p> Tipe Pokemon: ${pokemonTypes}</p>
