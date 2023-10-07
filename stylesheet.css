@@ -24,7 +24,18 @@ body {
   transition: transform 0.2s;
 }
 
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
+
 #get-pikachu {
   border: none;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
+  background-color: #fbd900;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#get-pikachu:hover {
+  background-color: #fbc000;
 }
