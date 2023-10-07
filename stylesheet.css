@@ -1,0 +1,16 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.getPikachu {
+    text-align: center;
+}
+
+#showPikachu {
+    text-align: center;
+}
+
+#get-pikachu {
+    border: none;
+    padding: 20px;
+}
